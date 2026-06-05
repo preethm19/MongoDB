@@ -111,5 +111,5 @@
 -- SELECT DNo, COUNT(*) AS Employees_Above_40000 
 -- FROM EMPLOYEE 
 -- WHERE Salary > 40000 
--- GROUP BY DNo 
--- HAVING COUNT(*) > 10;
+-- GROUP BY DNo
+-- HAVING COUNT(*) >= 2;
